@@ -9,7 +9,7 @@ var bodyParser = require('body-parser')
 //DB Connection
 mongoose.connect( db.url, function( err, res ){
 	if(err){
-		console.log('Unable to Connect to the DB')
+		console.log('Unable to Connect to the DB ' + err)
 	} else {
 		console.log('DB Connection Successfull')
 	}

@@ -1,3 +1,3 @@
 module.exports = {
-	url : 'mongodb://localhost/todoDb'
+	url : 'mongodb://kumarsas:kumarsas@ds019101.mlab.com:19101/kumardb'
 }
